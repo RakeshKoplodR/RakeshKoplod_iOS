@@ -15,6 +15,8 @@
 		14F33232244CC04500BD5886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F33230244CC04500BD5886 /* LaunchScreen.storyboard */; };
 		14F3323D244CC04500BD5886 /* Rakesh_Koplod_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3323C244CC04500BD5886 /* Rakesh_Koplod_iOSTests.swift */; };
 		14F33248244CC04500BD5886 /* Rakesh_Koplod_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33247244CC04500BD5886 /* Rakesh_Koplod_iOSUITests.swift */; };
+		14F33257244CC1C300BD5886 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33256244CC1C300BD5886 /* NetworkManager.swift */; };
+		14F33258244CC1C300BD5886 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33256244CC1C300BD5886 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		14F33243244CC04500BD5886 /* Rakesh_Koplod_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rakesh_Koplod_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F33247244CC04500BD5886 /* Rakesh_Koplod_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rakesh_Koplod_iOSUITests.swift; sourceTree = "<group>"; };
 		14F33249244CC04500BD5886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F33256244CC1C300BD5886 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 		14F33224244CC04200BD5886 /* Rakesh_Koplod_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				14F33255244CC18900BD5886 /* Network Manager */,
 				14F33225244CC04200BD5886 /* AppDelegate.swift */,
 				14F33227244CC04200BD5886 /* SceneDelegate.swift */,
 				14F33229244CC04200BD5886 /* ContentView.swift */,
@@ -134,6 +138,14 @@
 				14F33249244CC04500BD5886 /* Info.plist */,
 			);
 			path = Rakesh_Koplod_iOSUITests;
+			sourceTree = "<group>";
+		};
+		14F33255244CC18900BD5886 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				14F33256244CC1C300BD5886 /* NetworkManager.swift */,
+			);
+			path = "Network Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F33257244CC1C300BD5886 /* NetworkManager.swift in Sources */,
 				14F33226244CC04200BD5886 /* AppDelegate.swift in Sources */,
 				14F33228244CC04200BD5886 /* SceneDelegate.swift in Sources */,
 				14F3322A244CC04200BD5886 /* ContentView.swift in Sources */,
@@ -277,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F33258244CC1C300BD5886 /* NetworkManager.swift in Sources */,
 				14F3323D244CC04500BD5886 /* Rakesh_Koplod_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
