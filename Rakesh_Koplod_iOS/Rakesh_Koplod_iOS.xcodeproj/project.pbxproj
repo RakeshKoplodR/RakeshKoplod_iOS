@@ -25,6 +25,12 @@
 		14F33264244D96AA00BD5886 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33263244D96AA00BD5886 /* UserViewModel.swift */; };
 		14F33266244D9A3100BD5886 /* UserDataMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33265244D9A3100BD5886 /* UserDataMapper.swift */; };
 		14F3326C244DA75100BD5886 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3326B244DA75100BD5886 /* Constants.swift */; };
+		14F3326E244DB11700BD5886 /* UserViewModelUnitTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3326D244DB11700BD5886 /* UserViewModelUnitTestCase.swift */; };
+		14F3326F244DB13300BD5886 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3326B244DA75100BD5886 /* Constants.swift */; };
+		14F33270244DB13700BD5886 /* UserDataMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33265244D9A3100BD5886 /* UserDataMapper.swift */; };
+		14F33271244DB13C00BD5886 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33263244D96AA00BD5886 /* UserViewModel.swift */; };
+		14F33272244DB13F00BD5886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33229244CC04200BD5886 /* ContentView.swift */; };
+		14F33274244DB3E900BD5886 /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33273244DB3E900BD5886 /* TestUtils.swift */; };
 		16E0430550D51FAC0111C9BF /* Pods_Rakesh_Koplod_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2FCBEAB24008B13BF4344C /* Pods_Rakesh_Koplod_iOSUITests.framework */; };
 		B18B7EFB1A331EE2572DE92B /* Pods_Rakesh_Koplod_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C6691B5582B586DD84C1F0 /* Pods_Rakesh_Koplod_iOSTests.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +74,8 @@
 		14F33263244D96AA00BD5886 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		14F33265244D9A3100BD5886 /* UserDataMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataMapper.swift; sourceTree = "<group>"; };
 		14F3326B244DA75100BD5886 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		14F3326D244DB11700BD5886 /* UserViewModelUnitTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModelUnitTestCase.swift; sourceTree = "<group>"; };
+		14F33273244DB3E900BD5886 /* TestUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
 		3595AA9B3072E91AD7C75DA3 /* Pods-Rakesh_Koplod_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rakesh_Koplod_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rakesh_Koplod_iOS/Pods-Rakesh_Koplod_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		40CEEEF026E4D7F3A4A7963D /* Pods-Rakesh_Koplod_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rakesh_Koplod_iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rakesh_Koplod_iOSUITests/Pods-Rakesh_Koplod_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		568653114DE02D152B9D2172 /* Pods_Rakesh_Koplod_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rakesh_Koplod_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +168,8 @@
 			children = (
 				14F3323C244CC04500BD5886 /* Rakesh_Koplod_iOSTests.swift */,
 				14F3323E244CC04500BD5886 /* Info.plist */,
+				14F3326D244DB11700BD5886 /* UserViewModelUnitTestCase.swift */,
+				14F33273244DB3E900BD5886 /* TestUtils.swift */,
 			);
 			path = Rakesh_Koplod_iOSTests;
 			sourceTree = "<group>";
@@ -534,9 +544,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				14F33258244CC1C300BD5886 /* NetworkManager.swift in Sources */,
+				14F33271244DB13C00BD5886 /* UserViewModel.swift in Sources */,
 				14F3325E244D708600BD5886 /* User.swift in Sources */,
+				14F33274244DB3E900BD5886 /* TestUtils.swift in Sources */,
 				14F3323D244CC04500BD5886 /* Rakesh_Koplod_iOSTests.swift in Sources */,
+				14F3326E244DB11700BD5886 /* UserViewModelUnitTestCase.swift in Sources */,
+				14F33272244DB13F00BD5886 /* ContentView.swift in Sources */,
 				14F33262244D805300BD5886 /* UserView.swift in Sources */,
+				14F33270244DB13700BD5886 /* UserDataMapper.swift in Sources */,
+				14F3326F244DB13300BD5886 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

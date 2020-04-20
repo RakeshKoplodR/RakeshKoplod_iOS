@@ -11,10 +11,13 @@ import Foundation
 
 class User: Decodable, Identifiable {
      
-    var login:String
-    var avatar_url:String
-    var type:String
-    var url:String
+    var login:String = ""
+    var avatar_url:String = ""
+    var type:String = ""
+    var url:String = ""
     
+    init() {
+        
+    }
 }
 
