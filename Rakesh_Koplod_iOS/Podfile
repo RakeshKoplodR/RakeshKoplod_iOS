@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Rakesh_Koplod_iOS' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Rakesh_Koplod_iOS
+pod 'URLImage'
+  target 'Rakesh_Koplod_iOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'URLImage'
+  end
+
+  target 'Rakesh_Koplod_iOSUITests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'URLImage'
+  end
+
+end

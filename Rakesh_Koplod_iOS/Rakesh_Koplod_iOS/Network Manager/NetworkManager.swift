@@ -7,31 +7,18 @@
 //
 
 import UIKit
+import Foundation
+import Combine
 
-class NetworkManager: NSObject {
+class NetworkManager: ObservableObject {
 
-    func getDataFromURL(urlString: String, completion: @escaping (_ data: Data?, _ error: Error?) -> Void) {
-        guard let url = URL(string: urlString) else {
-            print("Error: Cannot create URL from string")
-            return
-        }
-        let urlRequest = URLRequest(url: url)
-        let task = URLSession.shared.dataTask(with: urlRequest) { (data, _, error) in
-            guard error == nil else {
-                print("Error calling api")
-                return completion(nil, error)
-            }
-            guard let responseData = data else {
-                print("Data is nil")
-                return completion(nil, error)
-            }
-            
-            let datastring = String(data: responseData, encoding: String.Encoding(rawValue: String.Encoding.utf8.rawValue))
-            print("Request URL ==> \(urlString)")
-            print("Response from server ==> \(datastring!)")
-            completion(responseData, nil)
-        }
-        task.resume()
+    func loadDataNormal(url : String , completion: @escaping (_ data: Data?, _ error: Error?) -> Void) {
+        guard let url = URL(string: "\(url)") else { return }
+        URLSession.shared.dataTask(with: url){ (data, _, _) in
+            guard let data = data else { return }
+            completion(data, nil)
+        }.resume()
     }
+    
     
 }

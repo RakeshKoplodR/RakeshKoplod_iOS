@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DFE5CCDDAEE03720E1F0C39 /* Pods_Rakesh_Koplod_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568653114DE02D152B9D2172 /* Pods_Rakesh_Koplod_iOS.framework */; };
 		14F33226244CC04200BD5886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33225244CC04200BD5886 /* AppDelegate.swift */; };
 		14F33228244CC04200BD5886 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33227244CC04200BD5886 /* SceneDelegate.swift */; };
 		14F3322A244CC04200BD5886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33229244CC04200BD5886 /* ContentView.swift */; };
@@ -17,6 +18,14 @@
 		14F33248244CC04500BD5886 /* Rakesh_Koplod_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33247244CC04500BD5886 /* Rakesh_Koplod_iOSUITests.swift */; };
 		14F33257244CC1C300BD5886 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33256244CC1C300BD5886 /* NetworkManager.swift */; };
 		14F33258244CC1C300BD5886 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33256244CC1C300BD5886 /* NetworkManager.swift */; };
+		14F3325D244D708600BD5886 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3325C244D708600BD5886 /* User.swift */; };
+		14F3325E244D708600BD5886 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3325C244D708600BD5886 /* User.swift */; };
+		14F33261244D805300BD5886 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33260244D805300BD5886 /* UserView.swift */; };
+		14F33262244D805300BD5886 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33260244D805300BD5886 /* UserView.swift */; };
+		14F33264244D96AA00BD5886 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33263244D96AA00BD5886 /* UserViewModel.swift */; };
+		14F33266244D9A3100BD5886 /* UserDataMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F33265244D9A3100BD5886 /* UserDataMapper.swift */; };
+		16E0430550D51FAC0111C9BF /* Pods_Rakesh_Koplod_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2FCBEAB24008B13BF4344C /* Pods_Rakesh_Koplod_iOSUITests.framework */; };
+		B18B7EFB1A331EE2572DE92B /* Pods_Rakesh_Koplod_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C6691B5582B586DD84C1F0 /* Pods_Rakesh_Koplod_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8A9114466CDE5BD12FBFCD /* Pods-Rakesh_Koplod_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rakesh_Koplod_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rakesh_Koplod_iOS/Pods-Rakesh_Koplod_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		14F33222244CC04200BD5886 /* Rakesh_Koplod_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rakesh_Koplod_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F33225244CC04200BD5886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14F33227244CC04200BD5886 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +62,18 @@
 		14F33247244CC04500BD5886 /* Rakesh_Koplod_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rakesh_Koplod_iOSUITests.swift; sourceTree = "<group>"; };
 		14F33249244CC04500BD5886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F33256244CC1C300BD5886 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		14F3325C244D708600BD5886 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		14F33260244D805300BD5886 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		14F33263244D96AA00BD5886 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		14F33265244D9A3100BD5886 /* UserDataMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataMapper.swift; sourceTree = "<group>"; };
+		3595AA9B3072E91AD7C75DA3 /* Pods-Rakesh_Koplod_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rakesh_Koplod_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rakesh_Koplod_iOS/Pods-Rakesh_Koplod_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		40CEEEF026E4D7F3A4A7963D /* Pods-Rakesh_Koplod_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rakesh_Koplod_iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rakesh_Koplod_iOSUITests/Pods-Rakesh_Koplod_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		568653114DE02D152B9D2172 /* Pods_Rakesh_Koplod_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rakesh_Koplod_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61550056EBCC749C528B9862 /* Pods-Rakesh_Koplod_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rakesh_Koplod_iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rakesh_Koplod_iOSUITests/Pods-Rakesh_Koplod_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70C6691B5582B586DD84C1F0 /* Pods_Rakesh_Koplod_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rakesh_Koplod_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		891E110B4A655E6CA2E980C1 /* Pods-Rakesh_Koplod_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rakesh_Koplod_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rakesh_Koplod_iOSTests/Pods-Rakesh_Koplod_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E2FCBEAB24008B13BF4344C /* Pods_Rakesh_Koplod_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rakesh_Koplod_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4327444C976B2C60358B0D2 /* Pods-Rakesh_Koplod_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rakesh_Koplod_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rakesh_Koplod_iOSTests/Pods-Rakesh_Koplod_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFE5CCDDAEE03720E1F0C39 /* Pods_Rakesh_Koplod_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18B7EFB1A331EE2572DE92B /* Pods_Rakesh_Koplod_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E0430550D51FAC0111C9BF /* Pods_Rakesh_Koplod_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +111,8 @@
 				14F3323B244CC04500BD5886 /* Rakesh_Koplod_iOSTests */,
 				14F33246244CC04500BD5886 /* Rakesh_Koplod_iOSUITests */,
 				14F33223244CC04200BD5886 /* Products */,
+				BD6967EEBE952F27DFB4CDFB /* Pods */,
+				B7441E2CBEEE9689B486AAAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,14 +129,17 @@
 		14F33224244CC04200BD5886 /* Rakesh_Koplod_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				14F3325F244D802800BD5886 /* Views */,
 				14F33255244CC18900BD5886 /* Network Manager */,
 				14F33225244CC04200BD5886 /* AppDelegate.swift */,
 				14F33227244CC04200BD5886 /* SceneDelegate.swift */,
-				14F33229244CC04200BD5886 /* ContentView.swift */,
 				14F3322B244CC04500BD5886 /* Assets.xcassets */,
 				14F33230244CC04500BD5886 /* LaunchScreen.storyboard */,
 				14F33233244CC04500BD5886 /* Info.plist */,
 				14F3322D244CC04500BD5886 /* Preview Content */,
+				14F3325C244D708600BD5886 /* User.swift */,
+				14F33263244D96AA00BD5886 /* UserViewModel.swift */,
+				14F33265244D9A3100BD5886 /* UserDataMapper.swift */,
 			);
 			path = Rakesh_Koplod_iOS;
 			sourceTree = "<group>";
@@ -148,6 +178,38 @@
 			path = "Network Manager";
 			sourceTree = "<group>";
 		};
+		14F3325F244D802800BD5886 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14F33229244CC04200BD5886 /* ContentView.swift */,
+				14F33260244D805300BD5886 /* UserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7441E2CBEEE9689B486AAAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				568653114DE02D152B9D2172 /* Pods_Rakesh_Koplod_iOS.framework */,
+				70C6691B5582B586DD84C1F0 /* Pods_Rakesh_Koplod_iOSTests.framework */,
+				8E2FCBEAB24008B13BF4344C /* Pods_Rakesh_Koplod_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD6967EEBE952F27DFB4CDFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A8A9114466CDE5BD12FBFCD /* Pods-Rakesh_Koplod_iOS.debug.xcconfig */,
+				3595AA9B3072E91AD7C75DA3 /* Pods-Rakesh_Koplod_iOS.release.xcconfig */,
+				F4327444C976B2C60358B0D2 /* Pods-Rakesh_Koplod_iOSTests.debug.xcconfig */,
+				891E110B4A655E6CA2E980C1 /* Pods-Rakesh_Koplod_iOSTests.release.xcconfig */,
+				61550056EBCC749C528B9862 /* Pods-Rakesh_Koplod_iOSUITests.debug.xcconfig */,
+				40CEEEF026E4D7F3A4A7963D /* Pods-Rakesh_Koplod_iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F3324C244CC04500BD5886 /* Build configuration list for PBXNativeTarget "Rakesh_Koplod_iOS" */;
 			buildPhases = (
+				82876D6921DA1F5DCA062E61 /* [CP] Check Pods Manifest.lock */,
 				14F3321E244CC04200BD5886 /* Sources */,
 				14F3321F244CC04200BD5886 /* Frameworks */,
 				14F33220244CC04200BD5886 /* Resources */,
+				81E8EE36331E635E621210C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F3324F244CC04500BD5886 /* Build configuration list for PBXNativeTarget "Rakesh_Koplod_iOSTests" */;
 			buildPhases = (
+				0441F4E881EF817C95E8648D /* [CP] Check Pods Manifest.lock */,
 				14F33234244CC04500BD5886 /* Sources */,
 				14F33235244CC04500BD5886 /* Frameworks */,
 				14F33236244CC04500BD5886 /* Resources */,
+				6D215C306B0551F936B18C37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F33252244CC04500BD5886 /* Build configuration list for PBXNativeTarget "Rakesh_Koplod_iOSUITests" */;
 			buildPhases = (
+				1B928F6F81DC43BAAFA8AC85 /* [CP] Check Pods Manifest.lock */,
 				14F3323F244CC04500BD5886 /* Sources */,
 				14F33240244CC04500BD5886 /* Frameworks */,
 				14F33241244CC04500BD5886 /* Resources */,
+				C9125C7AC7DA2DA9B9960607 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,6 +342,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0441F4E881EF817C95E8648D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rakesh_Koplod_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B928F6F81DC43BAAFA8AC85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rakesh_Koplod_iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D215C306B0551F936B18C37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rakesh_Koplod_iOSTests/Pods-Rakesh_Koplod_iOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/URLImage/URLImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rakesh_Koplod_iOSTests/Pods-Rakesh_Koplod_iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81E8EE36331E635E621210C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rakesh_Koplod_iOS/Pods-Rakesh_Koplod_iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/URLImage/URLImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rakesh_Koplod_iOS/Pods-Rakesh_Koplod_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82876D6921DA1F5DCA062E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rakesh_Koplod_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9125C7AC7DA2DA9B9960607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rakesh_Koplod_iOSUITests/Pods-Rakesh_Koplod_iOSUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/URLImage/URLImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rakesh_Koplod_iOSUITests/Pods-Rakesh_Koplod_iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14F3321E244CC04200BD5886 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -282,6 +485,10 @@
 				14F33257244CC1C300BD5886 /* NetworkManager.swift in Sources */,
 				14F33226244CC04200BD5886 /* AppDelegate.swift in Sources */,
 				14F33228244CC04200BD5886 /* SceneDelegate.swift in Sources */,
+				14F33261244D805300BD5886 /* UserView.swift in Sources */,
+				14F3325D244D708600BD5886 /* User.swift in Sources */,
+				14F33266244D9A3100BD5886 /* UserDataMapper.swift in Sources */,
+				14F33264244D96AA00BD5886 /* UserViewModel.swift in Sources */,
 				14F3322A244CC04200BD5886 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +498,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14F33258244CC1C300BD5886 /* NetworkManager.swift in Sources */,
+				14F3325E244D708600BD5886 /* User.swift in Sources */,
 				14F3323D244CC04500BD5886 /* Rakesh_Koplod_iOSTests.swift in Sources */,
+				14F33262244D805300BD5886 /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +655,7 @@
 		};
 		14F3324D244CC04500BD5886 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8A9114466CDE5BD12FBFCD /* Pods-Rakesh_Koplod_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +675,7 @@
 		};
 		14F3324E244CC04500BD5886 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3595AA9B3072E91AD7C75DA3 /* Pods-Rakesh_Koplod_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +695,7 @@
 		};
 		14F33250244CC04500BD5886 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4327444C976B2C60358B0D2 /* Pods-Rakesh_Koplod_iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +717,7 @@
 		};
 		14F33251244CC04500BD5886 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 891E110B4A655E6CA2E980C1 /* Pods-Rakesh_Koplod_iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +739,7 @@
 		};
 		14F33253244CC04500BD5886 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61550056EBCC749C528B9862 /* Pods-Rakesh_Koplod_iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +759,7 @@
 		};
 		14F33254244CC04500BD5886 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40CEEEF026E4D7F3A4A7963D /* Pods-Rakesh_Koplod_iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

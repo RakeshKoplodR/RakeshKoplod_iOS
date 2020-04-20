@@ -1,0 +1,16 @@
+PODS:
+  - URLImage (0.9.10)
+
+DEPENDENCIES:
+  - URLImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - URLImage
+
+SPEC CHECKSUMS:
+  URLImage: 6b7fcdc13c8b87b151460a67e051c8c71fdcea8c
+
+PODFILE CHECKSUM: a2673cd311dee72c8d11a1681d0017570644579c
+
+COCOAPODS: 1.5.3
