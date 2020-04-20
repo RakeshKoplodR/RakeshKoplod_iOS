@@ -12,6 +12,8 @@ import Combine
 
 class NetworkManager: ObservableObject {
 
+    //This class will be responsible for comunicating with server and getting the resposne.
+    //I have used URLSession data task to get data from server.
     func loadDataNormal(url : String , completion: @escaping (_ data: Data?, _ error: Error?) -> Void) {
         guard let url = URL(string: "\(url)") else { return }
         URLSession.shared.dataTask(with: url){ (data, _, _) in

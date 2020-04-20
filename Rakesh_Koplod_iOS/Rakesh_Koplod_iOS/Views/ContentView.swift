@@ -12,21 +12,27 @@ import Foundation
 
 struct ContentView: View {
     
-    @ObservedObject var networkManager = UserViewModel()
+    //Created observable for UserViewModel which will be get notified once we get the response
+    @ObservedObject var userViewModel = UserViewModel()
     
     var body: some View {
+        //Add navigation view to the screen
         NavigationView {
+            //User vertical stack to populate list
             VStack {
-                if networkManager.isLoadingData {
+                //Show loading on the UI untill we get the data froms erver
+                if userViewModel.isLoadingData {
                     Text(Constants.LOADING)
                } else {
-                    List(networkManager.userViewModels) { userViewModel in
+                    //Update UI once we get data from UserViewModel
+                    List(userViewModel.userViewModels) { userViewModel in
+                        //Create Tableview Cell for every viewModel which we have received
                         UserView(userViewModel: userViewModel)
                     }
                 }
             }
-            .navigationBarTitle(Text("Git Users list"))
-        }.navigationViewStyle(StackNavigationViewStyle())
+            .navigationBarTitle(Text("Git Users list")) //Add navigation title
+        }.navigationViewStyle(StackNavigationViewStyle()) // Support all orientations and all devices (iPhone and iPad)
     }
     
 }
