@@ -13,7 +13,6 @@ class UserViewModel: ObservableObject, Identifiable {
     @Published private(set) var isLoadingData = false
     @Published var movies = [User]()
     @Published var userViewModels = [UserViewModel]()
-    private let api_url_base = "https://api.github.com/users"
     
     var userName:String = ""
     var userImageUrl:String = ""
@@ -33,7 +32,7 @@ class UserViewModel: ObservableObject, Identifiable {
     }
 
     func getUsersList() {
-        NetworkManager().loadDataNormal(url: api_url_base) { (data, error) in
+        NetworkManager().loadDataNormal(url: Constants.GET_USERS_END_POINT) { (data, error) in
             guard let data = data, error == nil else {
                 print("Failed to get data")
                 return

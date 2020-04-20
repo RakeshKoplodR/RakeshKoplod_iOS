@@ -19,6 +19,4 @@ class NetworkManager: ObservableObject {
             completion(data, nil)
         }.resume()
     }
-    
-    
 }

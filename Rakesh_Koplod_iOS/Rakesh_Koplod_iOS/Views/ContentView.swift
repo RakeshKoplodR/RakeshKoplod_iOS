@@ -12,14 +12,13 @@ import Foundation
 
 struct ContentView: View {
     
-    
     @ObservedObject var networkManager = UserViewModel()
     
     var body: some View {
         NavigationView {
             VStack {
                 if networkManager.isLoadingData {
-                   Text("Loading ...")
+                    Text(Constants.LOADING)
                } else {
                     List(networkManager.userViewModels) { userViewModel in
                         UserView(userViewModel: userViewModel)
