@@ -129,6 +129,9 @@
 		14F33224244CC04200BD5886 /* Rakesh_Koplod_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				14F33269244DA15C00BD5886 /* DataMappers */,
+				14F33268244DA15100BD5886 /* Model */,
+				14F33267244DA14400BD5886 /* ViewModel */,
 				14F3325F244D802800BD5886 /* Views */,
 				14F33255244CC18900BD5886 /* Network Manager */,
 				14F33225244CC04200BD5886 /* AppDelegate.swift */,
@@ -137,9 +140,6 @@
 				14F33230244CC04500BD5886 /* LaunchScreen.storyboard */,
 				14F33233244CC04500BD5886 /* Info.plist */,
 				14F3322D244CC04500BD5886 /* Preview Content */,
-				14F3325C244D708600BD5886 /* User.swift */,
-				14F33263244D96AA00BD5886 /* UserViewModel.swift */,
-				14F33265244D9A3100BD5886 /* UserDataMapper.swift */,
 			);
 			path = Rakesh_Koplod_iOS;
 			sourceTree = "<group>";
@@ -185,6 +185,30 @@
 				14F33260244D805300BD5886 /* UserView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		14F33267244DA14400BD5886 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				14F33263244D96AA00BD5886 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		14F33268244DA15100BD5886 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14F3325C244D708600BD5886 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14F33269244DA15C00BD5886 /* DataMappers */ = {
+			isa = PBXGroup;
+			children = (
+				14F33265244D9A3100BD5886 /* UserDataMapper.swift */,
+			);
+			path = DataMappers;
 			sourceTree = "<group>";
 		};
 		B7441E2CBEEE9689B486AAAA /* Frameworks */ = {

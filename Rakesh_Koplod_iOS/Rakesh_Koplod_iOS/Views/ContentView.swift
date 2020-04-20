@@ -9,6 +9,7 @@
 import SwiftUI
 import Foundation
 
+
 struct ContentView: View {
     
     
@@ -26,7 +27,7 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle(Text("Git Users list"))
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
     
 }
